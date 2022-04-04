@@ -1,0 +1,61 @@
+.bottomController {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.bottomController > button {
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  color: #fff;
+}
+
+.pageNavigationMenu {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  align-items: center;
+  width: 50%;
+  margin: 5px auto;
+}
+
+.previousPages,
+.nextPages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.pageIndexs {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.previousPages > input {
+  flex-basis: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.pageIndexs > input,
+.nextPages > input {
+  flex-basis: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #1890ff;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.pageIndexs > input:focus,
+.nextPages > input:focus {
+  background-color: white;
+  color: #1890ff;
+}
+
+.nextPages > input:disabled {
+  background-color: white;
+  color: #1890ff;
+}

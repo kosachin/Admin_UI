@@ -1,0 +1,20 @@
+.tableHeading {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #dddada;
+  padding: 8px;
+}
+
+.tableHeading > h4,
+input {
+  flex: 1 0 200px;
+}
+.tableHeading input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+.selectedUser {
+  background-color: rosybrown;
+}
